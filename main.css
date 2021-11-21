@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  background-color: #0D1A2D;
+}
+
+.center-border {
+  width: 430px;
+  height: 690px;
+  border-radius: 15px;
+  margin: auto;
+  -webkit-box-shadow: #0C192C 0px 25px 0px 50px;
+          box-shadow: #0C192C 0px 25px 0px 50px;
+}
+
+.center {
+  background-color: rgba(20, 37, 62, 0.315);
+  text-align: center;
+  margin: auto;
+  font-family: Outfit;
+  width: 430px;
+  height: 690px;
+  border-radius: 15px;
+  margin-top: 80px;
+  -webkit-box-shadow: #0C1729 0px 30px 0px 20px;
+          box-shadow: #0C1729 0px 30px 0px 20px;
+  padding-top: 25px;
+}
+
+.view {
+  background: url("images/image-equilibrium.jpg");
+  width: 366px;
+  height: 359px;
+  background-position-x: center;
+  background-size: contain;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.view-img {
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 155px;
+  border-radius: 15px;
+}
+
+.view-bg {
+  border-radius: 15px;
+  background-color: rgba(0, 255, 247, 0.411);
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.view-container:hover .view-bg {
+  visibility: visible;
+}
+
+.lable {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.lable:hover {
+  color: #00fff7;
+}
+
+.paragraph {
+  color: #6e88aa;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 400px;
+  text-align: left;
+}
+
+.left-text {
+  font-size: 18px;
+  color: #00fff7;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding-left: 16px;
+  background: url(images/icon-ethereum.svg) no-repeat scroll 0 0 transparent;
+  background-position: left;
+  background-size: 12px;
+}
+
+.right-text {
+  font-size: 18px;
+  color: #6e88aa;
+  font-weight: 600;
+  text-align: right;
+  margin-left: 278px;
+  margin-top: -28px;
+  background: url(images/icon-clock.svg) no-repeat scroll 0 0 transparent;
+  background-position: left;
+  background-size: 20px;
+  width: 110px;
+  margin-bottom: 35px;
+}
+
+.center-footer {
+  border-top: solid 1px #425670;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 10px;
+}
+
+.footer-text {
+  text-align: left;
+  color: #6e88aa;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 60px;
+  margin-top: -32px;
+}
+
+.footer-text .username {
+  color: white;
+  cursor: pointer;
+}
+
+.footer-text .username:hover {
+  color: #00fff7;
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  margin-top: 10px;
+}
+
+.attribution {
+  margin-top: 20px;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

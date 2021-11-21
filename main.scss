@@ -1,0 +1,140 @@
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+        body {
+            background-color: #0D1A2D;
+        }
+        
+        .center-border {
+            width: 430px;
+            height: 690px;
+            border-radius: 15px;
+            margin: auto;
+            box-shadow: #0C192C 0px 25px 0px 50px;
+        }
+        
+        .center {
+            background-color: hsla(215, 51%, 16%, 0.315);
+            text-align: center;
+            margin: auto;
+            font-family: Outfit;
+            width: 430px;
+            height: 690px;
+            border-radius: 15px;
+            margin-top: 80px;
+            box-shadow: #0C1729 0px 30px 0px 20px;
+            padding-top: 25px;
+        }
+        
+        .view {
+            background: url("images/image-equilibrium.jpg");
+            width: 366px;
+            height: 359px;
+            background-position-x: center;
+            background-size: contain;
+            margin: auto;
+            border-radius: 15px;
+        }
+        
+        .view-img {
+            margin-left: 0px;
+            margin-top: 0px;
+            padding: 155px;
+            border-radius: 15px;
+        }
+        
+        .view-bg {
+            border-radius: 15px;
+            background-color: hsla(178, 100%, 50%, 0.411);
+            visibility: hidden;
+            cursor: pointer;
+        }
+        
+        .view-container {
+            &:hover {
+                .view-bg {
+                    visibility: visible;
+                }
+            }
+        }
+        
+        .lable {
+            color: hsl(0, 0%, 100%);
+            font-size: 30px;
+            font-weight: 600;
+            text-align: left;
+            margin-left: 40px;
+            margin-top: 30px;
+            cursor: pointer;
+            &:hover {
+                color: hsl(178, 100%, 50%);
+            }
+        }
+        
+        .paragraph {
+            color: hsl(214, 26%, 55%);
+            font-size: 22px;
+            margin-top: 20px;
+            margin-left: 40px;
+            width: 400px;
+            text-align: left;
+        }
+        
+        .left-text {
+            font-size: 18px;
+            color: hsl(178, 100%, 50%);
+            font-weight: 600;
+            text-align: left;
+            margin-left: 40px;
+            margin-top: 40px;
+            padding-left: 16px;
+            background: url(images/icon-ethereum.svg) no-repeat scroll 0 0 transparent;
+            background-position: left;
+            background-size: 12px;
+        }
+        
+        .right-text {
+            font-size: 18px;
+            color: hsl(214, 26%, 55%);
+            font-weight: 600;
+            text-align: right;
+            margin-left: 278px;
+            margin-top: -28px;
+            background: url(images/icon-clock.svg) no-repeat scroll 0 0 transparent;
+            background-position: left;
+            background-size: 20px;
+            width: 110px;
+            margin-bottom: 35px;
+        }
+        
+        .center-footer {
+            border-top: solid 1px hsl(214, 26%, 35%);
+            margin-left: 40px;
+            margin-right: 40px;
+            padding-top: 10px;
+        }
+        
+        .footer-text {
+            text-align: left;
+            color: hsl(214, 26%, 55%);
+            font-size: 20px;
+            display: flex;
+            margin-left: 60px;
+            margin-top: -32px;
+            .username {
+                color: hsl(0, 0%, 100%);
+                cursor: pointer;
+                &:hover {
+                    color: hsl(178, 100%, 50%);
+                }
+            }
+        }
+        
+        .avatar {
+            display: flex;
+            width: 40px;
+            margin-top: 10px;
+        }
+        
+        .attribution {
+            margin-top: 20px;
+            color: hsl(0, 0%, 100%);
+        }
